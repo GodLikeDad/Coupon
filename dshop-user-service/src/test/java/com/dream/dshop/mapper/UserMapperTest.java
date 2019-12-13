@@ -5,10 +5,10 @@
  * @create: 2019/12/12 17:16
  */
 
-package com.dream.dshop.user.mapper;
+package com.dream.dshop.mapper;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.dream.dshop.user.bean.User;
+import com.dream.dshop.bean.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

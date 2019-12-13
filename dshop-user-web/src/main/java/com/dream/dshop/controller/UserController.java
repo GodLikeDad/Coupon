@@ -5,11 +5,11 @@
  * @create: 2019/12/12 20:21
  */
 
-package com.dream.dshop.user.controller;
+package com.dream.dshop.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.dream.dshop.user.bean.User;
-import com.dream.dshop.user.service.UserService;
+import com.dream.dshop.bean.User;
+import com.dream.dshop.service.UserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

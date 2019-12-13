@@ -5,14 +5,14 @@
  * @create: 2019/12/12 17:07
  */
 
-package com.dream.dshop.user.service.impl;
+package com.dream.dshop.service.impl;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.dream.dshop.user.bean.User;
-import com.dream.dshop.user.mapper.UserMapper;
-import com.dream.dshop.user.service.UserService;
+import com.dream.dshop.mapper.UserMapper;
+import com.dream.dshop.bean.User;
+import com.dream.dshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

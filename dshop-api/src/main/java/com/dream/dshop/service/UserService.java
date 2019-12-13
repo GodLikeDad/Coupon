@@ -1,6 +1,6 @@
-package com.dream.dshop.user.service;
+package com.dream.dshop.service;
 
-import com.dream.dshop.user.bean.User;
+import com.dream.dshop.bean.User;
 
 import java.util.List;
 

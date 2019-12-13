@@ -5,7 +5,7 @@
  * @create: 2019/12/12 16:47
  */
 
-package com.dream.dshop.user.bean;
+package com.dream.dshop.bean;
 
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.Data;

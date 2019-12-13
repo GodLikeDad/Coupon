@@ -1,4 +1,4 @@
-package com.dream.dshop.user;
+package com.dream.dshop;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.mybatis.spring.annotation.MapperScan;

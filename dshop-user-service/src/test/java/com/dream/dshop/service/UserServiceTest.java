@@ -5,16 +5,13 @@
  * @create: 2019/12/12 17:26
  */
 
-package com.dream.dshop.user.service;
+package com.dream.dshop.service;
 
-import com.dream.dshop.user.bean.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
