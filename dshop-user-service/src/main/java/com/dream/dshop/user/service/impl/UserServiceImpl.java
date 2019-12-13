@@ -12,6 +12,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.dream.dshop.bean.User;
+import com.dream.dshop.service.UserService;
 import com.dream.dshop.user.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -20,7 +21,7 @@ import java.util.List;
 
 @Component
 @Service
-public class UserServiceImpl  {
+public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
