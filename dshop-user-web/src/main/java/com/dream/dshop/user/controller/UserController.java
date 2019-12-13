@@ -5,7 +5,7 @@
  * @create: 2019/12/12 20:21
  */
 
-package com.dream.dshop.controller;
+package com.dream.dshop.user.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.dream.dshop.bean.User;

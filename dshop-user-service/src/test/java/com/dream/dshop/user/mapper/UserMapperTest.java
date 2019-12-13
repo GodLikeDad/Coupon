@@ -1,17 +1,18 @@
 /**
  * @program dshop
- * @description: 用户控制器测试
+ * @description: userMapper测试
  * @author: mf
- * @create: 2019/12/12 23:04
+ * @create: 2019/12/12 17:16
  */
 
-package com.dream.dshop.controller;
+package com.dream.dshop.user.mapper;
 
-import com.alibaba.dubbo.config.annotation.Reference;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.dream.dshop.bean.User;
-import com.dream.dshop.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -19,14 +20,14 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserControllerTest {
+public class UserMapperTest {
 
-    @Reference
-    private UserService userService;
+    @Autowired
+    private UserMapper userMapper;
 
     @Test
-    public void getAllUsers() {
-        List<User> users = userService.userList();
+    public void testAll() {
+        List<User> users = userMapper.selectList(new QueryWrapper<User>());
         for (User user : users) {
             System.out.println(user);
         }

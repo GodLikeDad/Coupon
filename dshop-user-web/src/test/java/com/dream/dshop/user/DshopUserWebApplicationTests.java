@@ -1,4 +1,4 @@
-package com.dream.dshop;
+package com.dream.dshop.user;
 
 
 import org.junit.Test;
