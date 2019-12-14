@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dshop.iml" filepath="$PROJECT_DIR$/dshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dream-commons/commons-core/commons-core.iml" filepath="$PROJECT_DIR$/dream-commons/commons-core/commons-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dream.iml" filepath="$PROJECT_DIR$/dream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dream-commons/dream-commons.iml" filepath="$PROJECT_DIR$/dream-commons/dream-commons.iml" />
     </modules>
   </component>
 </project>

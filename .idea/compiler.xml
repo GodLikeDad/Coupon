@@ -6,22 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dshop" />
-        <module name="dshop-api" />
-        <module name="dshop-common-util" />
-        <module name="dshop-service-util" />
-        <module name="dshop-user-service" />
-        <module name="dshop-user-web" />
-        <module name="dshop-web-util" />
+        <module name="commons-core" />
+        <module name="dream" />
+        <module name="dream-user" />
+        <module name="user-api" />
+        <module name="user-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dshop" target="1.5" />
+      <module name="commons-core" target="1.5" />
+      <module name="dream" target="1.5" />
+      <module name="dream-commons" target="1.5" />
+      <module name="dshop-api" target="1.5" />
+      <module name="dshop-common-util" target="1.5" />
+      <module name="dshop-service-util" target="1.5" />
+      <module name="dshop-user-service" target="1.5" />
+      <module name="dshop-user-web" target="1.5" />
+      <module name="dshop-web-util" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dream-user" options="" />
       <module name="dshop-user-web" options="" />
+      <module name="user-provider" options="" />
     </option>
   </component>
 </project>

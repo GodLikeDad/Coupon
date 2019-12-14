@@ -6,13 +6,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dshop-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-api/pom.xml" />
         <option value="$PROJECT_DIR$/dshop-conmon-util/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-common-util/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-web-util/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dshop-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/dream-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dream-user/pom.xml" />
       </list>
     </option>
   </component>
