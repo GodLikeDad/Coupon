@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96468b74-76ab-4fc3-847e-1f1235e431ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/bean/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/Coupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/bean/UserCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/UserCoupon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-common-util/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dream-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-service-util/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/user/DshopUserServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/user/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/user/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/test/java/com/dream/dshop/user/DshopUserServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/test/java/com/dream/dshop/user/mapper/UserMapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-service/src/test/java/com/dream/dshop/user/service/UserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/src/main/java/com/dream/dshop/user/DshopUserWebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/src/main/java/com/dream/dshop/user/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/src/test/java/com/dream/dshop/user/DshopUserWebApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-user-web/src/test/java/com/dream/dshop/user/controller/UserControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dshop-web-util/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,25 +31,137 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dream-user/src/test/java/com/dream/user/UserControllerTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/UserProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="288">
+              <caret line="17" lean-forward="true" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="25" column="34" lean-forward="true" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/UserProviderApplication.java">
+        <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="22" column="9" lean-forward="true" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="15" lean-forward="true" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/DreamUserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" lean-forward="true" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-user/src/test/java/com/dream/user/UserControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/ResponseData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -99,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dshop-user-service/src/test/java/com/dream/dshop/user/DshopUserServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/dshop-user-web/pom.xml" />
-        <option value="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/user/service/impl/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/user/DshopUserServiceApplication.java" />
         <option value="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/dshop-user-web/src/main/java/com/dream/dshop/user/DshopUserWebApplication.java" />
@@ -110,7 +190,6 @@
         <option value="$PROJECT_DIR$/dshop-api/pom.xml" />
         <option value="$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/user/bean/User.java" />
         <option value="$PROJECT_DIR$/dshop-user-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/dshop-user-service/src/main/java/com/dream/dshop/MyGenerator.java" />
         <option value="$PROJECT_DIR$/dshop-common-util/src/main/java/com/dream/dshop/uuser/util/MyGenerator.java" />
@@ -141,8 +220,6 @@
         <option value="$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserProviderApplicationTests.java" />
         <option value="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/services/UserService.java" />
         <option value="$PROJECT_DIR$/user-service/user-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service/user-api/src/main/java/com/dream/user/IUserService.java" />
-        <option value="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/services/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/user-service/user-provider/src/main/resources/application.yml" />
@@ -150,6 +227,12 @@
         <option value="$PROJECT_DIR$/dream-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/dream-user/pom.xml" />
         <option value="$PROJECT_DIR$/dream-user/src/test/java/com/dream/user/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/user-service/user-api/src/main/java/com/dream/user/IUserService.java" />
+        <option value="$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/services/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractRequest.java" />
+        <option value="$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractResponse.java" />
+        <option value="$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/ResponseData.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -179,17 +262,6 @@
               <item name="dream" type="b2602c69:ProjectViewProjectNode" />
               <item name="dream" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dream" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-api" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +276,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576328556976" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576396403018" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -362,7 +434,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576140252988</updated>
       <workItem from="1576140254187" duration="22183000" />
-      <workItem from="1576254723709" duration="6321000" />
+      <workItem from="1576254723709" duration="8454000" />
     </task>
     <task id="LOCAL-00001" summary="add readme说明文档">
       <created>1576222006675</created>
@@ -427,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576249556450</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="重构">
+      <created>1576328585603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576328585603</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加抽象请求返回类">
+      <created>1576396355026</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576396355026</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -463,10 +549,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28504000" />
+    <option name="totallyTimeSpent" value="30637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -515,26 +602,10 @@
     <MESSAGE value="添加sql" />
     <MESSAGE value="更改目录结构" />
     <MESSAGE value="重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构" />
+    <MESSAGE value="添加抽象请求返回类" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加抽象请求返回类" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.0/mybatis-plus-generator-3.3.0.jar!/com/baomidou/mybatisplus/generator/config/DataSourceConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dshop-common-util/src/main/java/com/dream/dshop/user/util/MyGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/user/bean/User.java" />
-    <entry file="file://$PROJECT_DIR$/dshop-common-util/src/main/java/com/dream/dshop/util/MyGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/dshop-user-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dshop-common-util/dshop-common-util.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-995" />
@@ -625,24 +696,6 @@
     <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/UserCoupon.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dshop-api/src/main/java/com/dream/dshop/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -682,33 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dream-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -767,13 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -785,13 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" lean-forward="true" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/DreamUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -809,25 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dream-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dream-user/src/test/java/com/dream/user/DreamUserApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -838,29 +831,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dream-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="15" column="34" lean-forward="true" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dream-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="52" column="21" lean-forward="true" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-end-line="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/dal/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/user-api/src/main/java/com/dream/user/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/services/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="408">
+          <caret line="22" lean-forward="true" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/UserProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" lean-forward="true" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="25" column="34" lean-forward="true" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/test/java/com/dream/user/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="408">
+          <caret line="22" column="9" lean-forward="true" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#522#523#0" expanded="true" />
@@ -869,29 +935,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="14" column="15" lean-forward="true" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/user-provider/src/main/java/com/dream/user/UserProviderApplication.java">
+    <entry file="file://$PROJECT_DIR$/dream-user/src/main/java/com/dream/user/DreamUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="13" lean-forward="true" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dream-user/src/test/java/com/dream/user/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="480">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Mybook/java1.8/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/AbstractResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dream-commons/commons-core/src/main/java/com/dream/commons/result/ResponseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
