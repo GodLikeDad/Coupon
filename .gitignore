@@ -4,4 +4,4 @@ target
 HELP.md
 mvnw
 mvnw.cmd
-.idea
+.idea/*.xml
