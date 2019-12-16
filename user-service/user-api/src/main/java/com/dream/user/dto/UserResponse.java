@@ -15,7 +15,9 @@ import java.io.Serializable;
 @Data
 public class UserResponse extends  AbstractResponse{
 
-
+    /**
+     * 封装可返回用户信息
+     */
     private UserDto userDto;
 
 

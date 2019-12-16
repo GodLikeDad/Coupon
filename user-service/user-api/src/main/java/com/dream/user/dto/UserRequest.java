@@ -8,12 +8,15 @@
 package com.dream.user.dto;
 
 import com.dream.commons.result.AbstractRequest;
+import lombok.Data;
 
+@Data
 public class UserRequest extends AbstractRequest {
 
+    /**
+     * 根据id寻找用户
+     */
     private Integer id;
-
-    private String name;
 
     public void requestCheck() {
 

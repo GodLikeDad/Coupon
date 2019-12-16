@@ -8,6 +8,7 @@
 package com.dream.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.dream.user.dto.UserListResponse;
 import com.dream.user.dto.UserRequest;
 import com.dream.user.dto.UserResponse;
 import org.junit.Test;
@@ -30,7 +31,14 @@ public class UserServiceTest {
     @Test
     public void testUserById() {
         UserRequest request = new UserRequest();
+        request.setId(1);
         UserResponse userResponse = userService.userById(request);
-        System.out.println();
+        System.out.println(userResponse);
+    }
+
+    @Test
+    public void testGetUsers() {
+        UserListResponse userListResponse = userService.users();
+        System.out.println(userListResponse);
     }
 }
