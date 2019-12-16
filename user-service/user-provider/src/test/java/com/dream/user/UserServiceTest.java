@@ -8,6 +8,8 @@
 package com.dream.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.dream.user.dto.UserRequest;
+import com.dream.user.dto.UserResponse;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,5 +25,12 @@ public class UserServiceTest {
     @Test
     public void testHello() {
         System.out.println(userService.Hello());
+    }
+
+    @Test
+    public void testUserById() {
+        UserRequest request = new UserRequest();
+        UserResponse userResponse = userService.userById(request);
+        System.out.println();
     }
 }

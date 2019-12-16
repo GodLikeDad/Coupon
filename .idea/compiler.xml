@@ -14,9 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="commons-core" target="1.5" />
       <module name="dream" target="1.5" />
-      <module name="dream-commons" target="1.5" />
       <module name="dshop-api" target="1.5" />
       <module name="dshop-common-util" target="1.5" />
       <module name="dshop-service-util" target="1.5" />

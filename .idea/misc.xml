@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/dream-parent/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/user-provider/pom.xml" />
         <option value="$PROJECT_DIR$/dream-user/pom.xml" />
+        <option value="$PROJECT_DIR$/dream-commons/pom.xml" />
       </list>
     </option>
   </component>

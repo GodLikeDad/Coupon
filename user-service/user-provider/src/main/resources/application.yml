@@ -13,7 +13,7 @@ dubbo:
   application:
     name: user-service # 应用名称
   registry: # 注册中心
-    address: 192.168.1.106:2181
+    address: 192.168.1.105:2181
     protocol: zookeeper
   protocol:
     port: 28800
