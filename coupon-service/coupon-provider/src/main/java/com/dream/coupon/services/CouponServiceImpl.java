@@ -17,11 +17,13 @@ import com.dream.coupon.dal.mapper.CouponMapper;
 import com.dream.coupon.dto.CouponListResponse;
 import com.dream.coupon.dto.CouponRequest;
 import com.dream.coupon.dto.CouponResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Slf4j
 @Component
 @Service
 public class CouponServiceImpl implements ICouponService {
@@ -47,12 +49,13 @@ public class CouponServiceImpl implements ICouponService {
                 couponResponse.setCode(CouponRetCodeConstants.DATA_NOT_EXIST.getCode());
                 couponResponse.setMsg(CouponRetCodeConstants.DATA_NOT_EXIST.getMessage());
             }
+            log.warn(coupon.toString());
             couponResponse.setCouponDto(couponConverter.coupon2Res(coupon));
             couponResponse.setCode(CouponRetCodeConstants.SUCCESS.getCode());
             couponResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
 
         } catch (Exception e) {
-            System.out.println("错误日志...暂时还没写" + e);
+            log.error("couponById" + e.toString());
         }
         return couponResponse;
     }
