@@ -8,6 +8,7 @@
 - **Redis**
 - **LoadingCache**
 - **Slf4j**
+- **swagger**
 
 
 ## 优惠券功能
