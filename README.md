@@ -6,6 +6,7 @@
 - **Mybatis-plus**
 - **Mysql**
 - **Redis**
+- **LoadingCache**
 
 
 ## 优惠券功能
