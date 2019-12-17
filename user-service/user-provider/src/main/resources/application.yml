@@ -18,3 +18,8 @@ dubbo:
   protocol:
     port: 28800
 
+
+logging:
+  file: logs/log.log
+  level:
+    root: warn

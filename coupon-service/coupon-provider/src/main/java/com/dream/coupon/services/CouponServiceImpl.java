@@ -53,7 +53,6 @@ public class CouponServiceImpl implements ICouponService {
             couponResponse.setCouponDto(couponConverter.coupon2Res(coupon));
             couponResponse.setCode(CouponRetCodeConstants.SUCCESS.getCode());
             couponResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
-
         } catch (Exception e) {
             log.error("couponById" + e.toString());
         }
@@ -73,7 +72,7 @@ public class CouponServiceImpl implements ICouponService {
             couponListResponse.setCode(CouponRetCodeConstants.SUCCESS.getCode());
             couponListResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
         } catch (Exception e) {
-            System.out.println("错误日志...暂时还没写" + e);
+            log.error("coupons" + e.toString());
         }
         return couponListResponse;
     }

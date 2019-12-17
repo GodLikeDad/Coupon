@@ -7,6 +7,7 @@
 - **Mysql**
 - **Redis**
 - **LoadingCache**
+- **Slf4j**
 
 
 ## 优惠券功能

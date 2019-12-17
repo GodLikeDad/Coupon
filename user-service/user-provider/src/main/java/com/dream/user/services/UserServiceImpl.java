@@ -17,11 +17,13 @@ import com.dream.user.dal.mapper.UserMapper;
 import com.dream.user.dto.UserListResponse;
 import com.dream.user.dto.UserRequest;
 import com.dream.user.dto.UserResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Slf4j
 @Component
 @Service
 public class UserServiceImpl implements IUserService {
@@ -56,7 +58,7 @@ public class UserServiceImpl implements IUserService {
             userResponse.setMsg(SysRetCodeConstants.SUCCESS.getMessage());
 
         } catch (Exception e) {
-            System.out.println("错误日志...暂时还没写" + e);
+            log.error("userById" + e.toString());
         }
         return userResponse;
     }
@@ -74,7 +76,7 @@ public class UserServiceImpl implements IUserService {
             userListResponse.setCode(SysRetCodeConstants.SUCCESS.getCode());
             userListResponse.setMsg(SysRetCodeConstants.SUCCESS.getMessage());
         } catch (Exception e) {
-            System.out.println("错误日志...暂时还没写" + e);
+            log.error("users" + e.toString());
         }
         return userListResponse;
     }
