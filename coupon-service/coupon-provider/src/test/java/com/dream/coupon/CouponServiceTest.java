@@ -15,7 +15,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.rmi.CORBA.Util;
 import java.util.Date;
 
 @RunWith(SpringRunner.class)
@@ -43,11 +42,13 @@ public class CouponServiceTest {
     @Test
     public void addCoupon() {
         AddCouponRequest req = new AddCouponRequest();
+        req.setPicUrl("/11.png");
         req.setAchieveAmount(400);
         req.setReduceAmount(100);
         req.setStock(2000);
         req.setTitle("满400减100");
-        req.setStartTime(UtilDate.dateToLocalDateTime(new Date()));
+        req.setStatus("0");
+        req.setStartTime(UtilDate.localDateTimeParse("2019-12-12 00:00:00", UtilDate.FORMAT_PATTERN1));
         req.setEndTime(UtilDate.localDateTimeParse("2020-12-12 00:00:00", UtilDate.FORMAT_PATTERN1));
         AddCouponResponse addCouponResponse = couponService.addCoupon(req);
         System.out.println(addCouponResponse);

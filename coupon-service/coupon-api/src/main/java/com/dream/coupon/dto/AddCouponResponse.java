@@ -12,4 +12,9 @@ import lombok.Data;
 
 @Data
 public class AddCouponResponse extends AbstractResponse {
+
+    /**
+     * 封装可返回用户信息
+     */
+    private CouponDto couponDto;
 }

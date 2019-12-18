@@ -20,6 +20,6 @@ dubbo:
 
 
 logging:
-  file: logs/log.log
+  file: logs/user-service-log.log
   level:
     root: warn

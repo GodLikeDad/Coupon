@@ -20,7 +20,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
@@ -57,6 +56,8 @@ public class CouponServiceImpl implements ICouponService {
             couponResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
         } catch (Exception e) {
             log.error("couponById" + e.toString());
+            couponResponse.setCode(CouponRetCodeConstants.SYSTEM_ERROR.getCode());
+            couponResponse.setMsg(CouponRetCodeConstants.SYSTEM_ERROR.getMessage());
         }
         return couponResponse;
     }
@@ -75,6 +76,8 @@ public class CouponServiceImpl implements ICouponService {
             couponListResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
         } catch (Exception e) {
             log.error("coupons -> error" + e.toString());
+            couponListResponse.setCode(CouponRetCodeConstants.SYSTEM_ERROR.getCode());
+            couponListResponse.setMsg(CouponRetCodeConstants.SYSTEM_ERROR.getMessage());
         }
         return couponListResponse;
     }
@@ -91,20 +94,20 @@ public class CouponServiceImpl implements ICouponService {
             // 每个优惠券是唯一的，因为优惠券码是唯一的，暂时使用uuid来生成
             // 所以这边就不进行去库里寻找
             Coupon coupon = couponConverter.Res2Coupon(request);
+            System.out.println(coupon.toString());
             // 暂时随机设置UUID吧，之后会用雪花算法
             coupon.setCode(UUID.randomUUID().toString());
             // 创建时间
             coupon.setCreateTime(UtilDate.dateToLocalDateTime(new Date()));
-            // 开始时间
-//            coupon.setStartTime(UtilDate.localDateTimeParse());
-            // 结束时间
-//            coupon.setEndTime();
             couponMapper.insert(coupon);
             log.warn(coupon.toString());
+            addCouponResponse.setCouponDto(couponConverter.coupon2Res(coupon));
             addCouponResponse.setCode(CouponRetCodeConstants.SUCCESS.getCode());
             addCouponResponse.setMsg(CouponRetCodeConstants.SUCCESS.getMessage());
         } catch (Exception e) {
             log.error("addCoupon -> error" + e);
+            addCouponResponse.setCode(CouponRetCodeConstants.SYSTEM_ERROR.getCode());
+            addCouponResponse.setMsg(CouponRetCodeConstants.SYSTEM_ERROR.getMessage());
         }
         return addCouponResponse;
     }

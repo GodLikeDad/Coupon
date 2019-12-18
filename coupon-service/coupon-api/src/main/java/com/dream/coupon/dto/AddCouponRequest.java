@@ -15,6 +15,8 @@ import java.time.LocalDateTime;
 @Data
 public class AddCouponRequest extends AbstractRequest {
 
+    private String picUrl;
+
     private Integer achieveAmount;
 
     private Integer reduceAmount;

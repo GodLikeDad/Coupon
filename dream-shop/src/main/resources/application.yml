@@ -19,3 +19,8 @@ spring:
 
 swagger:
   enable: true
+
+logging:
+  file: logs/dream-shop-log.log
+  level:
+    root: warn
