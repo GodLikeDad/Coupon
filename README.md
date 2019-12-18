@@ -6,7 +6,6 @@
 - **Mybatis-plus**
 - **Mysql**
 - **Redis**
-- **LoadingCache**
 - **Slf4j**
 - **swagger**
 
