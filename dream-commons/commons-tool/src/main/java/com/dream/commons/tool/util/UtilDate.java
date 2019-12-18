@@ -14,13 +14,13 @@ import java.util.Date;
 
 public class UtilDate {
 
-    private final static String FORMAT_PATTERN1="yyyy-MM-dd HH:mm:ss";
+    public final static String FORMAT_PATTERN1="yyyy-MM-dd HH:mm:ss";
 
-    private final static String FORMAT_PATTERN2="yyyyMMddHHmmss";
+    public final static String FORMAT_PATTERN2="yyyyMMddHHmmss";
 
-    private final static String FORMAT_PATTERN3="yyyy-MM-dd";
+    public final static String FORMAT_PATTERN3="yyyy-MM-dd";
 
-    private final static String FORMAT_PATTERN4="yyyyMMdd";
+    public final static String FORMAT_PATTERN4="yyyyMMdd";
 
     /**
      * 将localDate 按照一定的格式转换成String

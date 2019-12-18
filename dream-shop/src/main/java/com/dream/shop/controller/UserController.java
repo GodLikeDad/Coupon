@@ -41,7 +41,7 @@ public class UserController {
      * @return
      */
     @ApiOperation("根据id获取用户")
-    @GetMapping("/shop/{id}")
+    @GetMapping("/user/{id}")
     @ApiImplicitParam(name = "id", value = "用户id", paramType = "path", required = true)
     public ResponseData searchUserById(@PathVariable(name = "id")Integer id) {
         UserRequest req = new UserRequest();
@@ -57,6 +57,7 @@ public class UserController {
      * 返回全部用户信息
      * @return
      */
+    @ApiOperation("获取用户")
     @GetMapping("/users")
     public ResponseData getUsers() {
         UserListResponse res = userService.users();
